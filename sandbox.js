@@ -156,7 +156,7 @@
 
 
 //comparison operators
-let age = 25;
+//let age = 25;
 
 // console.log(age==25);
 
@@ -188,11 +188,11 @@ let age = 25;
 // console.log(age !=='25');
 
 //type conversion
-let score ='100';
+//let score ='100';
 //score = Number(score);
 //console.log (score +1);
 
 //console.log(typeof score);
 
-let result = Boolean('100');
-console.log(result, typeof result);
+// let result = Boolean('100');
+// console.log(result, typeof result);
