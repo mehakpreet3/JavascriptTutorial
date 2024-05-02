@@ -34,5 +34,18 @@ while(a < names.length){
 let b= 5;
 do{
 console.log('val of i is : ', b);
-b++
+b++;
 }while(i<5);
+
+//if statements
+const age = 25;
+
+if (age >20){
+    console.log('you are over 20 years old');
+}
+
+const ninjas =['shaun','ryu','chun-li','yashi'];
+
+if (ninjas.length >3){
+    console.log('thats a lot of ninjas');
+}
