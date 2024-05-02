@@ -29,3 +29,10 @@ while(a < names.length){
     console.log(names[a]);
     a++;
 }
+
+//do while loops
+let b= 5;
+do{
+console.log('val of i is : ', b);
+b++
+}while(i<5);
