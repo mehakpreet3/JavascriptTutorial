@@ -15,3 +15,17 @@ for (let i = 0; i<names.length; i++){
     let html = `<div>${names[i]}</div>`
     console.log(html);
 }
+
+//while loop
+let i= 0;
+
+while(i < 5){
+    console.log('in loop:', i);
+    i++;
+}
+
+let a=0;
+while(a < names.length){
+    console.log(names[a]);
+    a++;
+}
