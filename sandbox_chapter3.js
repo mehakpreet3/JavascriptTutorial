@@ -49,3 +49,11 @@ const ninjas =['shaun','ryu','chun-li','yashi'];
 if (ninjas.length >3){
     console.log('thats a lot of ninjas');
 }
+
+const password ='p@ss';
+
+if(password.length >=7){
+    console.log("The password is long enough!");
+}else{
+    console.log("password is not long enough!!!!");
+}
