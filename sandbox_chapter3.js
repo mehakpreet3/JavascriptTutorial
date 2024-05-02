@@ -52,7 +52,9 @@ if (ninjas.length >3){
 
 const password ='p@ss';
 
-if(password.length >=7){
+if(password.length>=12){
+    console.log("The password is might strong");
+}else if(password.length >=7){
     console.log("The password is long enough!");
 }else{
     console.log("password is not long enough!!!!");
