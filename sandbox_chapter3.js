@@ -9,5 +9,9 @@ console.log('loop finished');
 const names = ['shaun','mario','luigi'];
 
 for (let i = 0; i<names.length; i++){
-    console.log(names[i]);
+    //console.log(names[i]);
+
+    //used html literals
+    let html = `<div>${names[i]}</div>`
+    console.log(html);
 }
