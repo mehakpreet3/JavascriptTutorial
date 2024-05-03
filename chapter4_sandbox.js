@@ -15,3 +15,11 @@ const speak = function(){
 
 speak();
 
+//arguments & parameters
+
+const spoke = function(name='sham',time='night'){
+    console.log(`good ${time} ${name}`)
+};
+
+spoke('mario', 'morning');
+
