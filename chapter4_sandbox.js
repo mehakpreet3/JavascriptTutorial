@@ -1,12 +1,12 @@
 
 
 //function hosting works onl with function declaration not function expression.
-greet();//calling or invoking the function
+// greet();//calling or invoking the function
 
-//function declaration
-function greet(){
-    console.log('hello there');
-}
+// //function declaration
+// function greet(){
+//     console.log('hello there');
+// }
 
 //function expression, semicolon at the end
 const speak = function(){
@@ -54,3 +54,17 @@ const bill = (products,tax) =>{
     return total; 
 }
 console.log(bill([10,15,30], 0.2));
+
+const name = 'shaun';
+
+//functions
+
+const greet = () => 'hello';
+
+let resultOne = greet();
+console.log(resultOne);
+
+
+//methods
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
