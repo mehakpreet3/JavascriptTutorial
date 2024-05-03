@@ -68,3 +68,26 @@ console.log(resultOne);
 //methods
 let resultTwo = name.toUpperCase();
 console.log(resultTwo);
+
+
+//callback & foreach
+const myFunc = (callbackFunc) => {
+    let value = 50;
+    callbackFunc(value);
+};
+
+myFunc(value => {
+    console.log(value);
+});
+
+let people = ['mario', 'luigi', 'ryu', 'shaun'];
+
+const LogPerson = (person, index) =>{
+    console.log(`${index}- hello ${person}`);
+};
+
+people.forEach(LogPerson);
+
+// people.forEach((person,index) =>{
+//     console.log(index,person);
+// });
