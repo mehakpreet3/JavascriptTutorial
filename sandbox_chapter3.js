@@ -117,3 +117,19 @@ switch(grade){
     default: 
         console.log('not a valid grade');
 }
+
+//variables & block scope
+let yearsOld = 30;
+if(true){
+    let yearsOld = 50;
+    name = 'shaun';
+    console.log('inside 1st code block: ', yearsOld, name);
+
+    if(true){
+    let yearsOld = 34;
+        console.log('inside 2nd code block:', yearsOld);  
+    }
+}
+
+console.log('outside 1st code block: ', yearsOld);
+
