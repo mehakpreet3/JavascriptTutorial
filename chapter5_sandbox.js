@@ -66,3 +66,24 @@ console.log(Math.trunc(areaOfCircle));
 const random = Math.random();
 console.log(random);
 console.log (Math.round(random * 100));
+
+//primitive(numbers,strings,booleans, null,undefined,symbols) and reference types(object types, object literals)
+//stack (primitive) and heap(reference type)
+
+//primitive values
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
+
+// console.log(`scoreOne: ${scoreOne}` , `scoreTwo: ${scoreTwo}`);
+
+// scoreOne = 100;
+// console.log(`scoreOne: ${scoreOne}` , `scoreTwo: ${scoreTwo}`);
+
+//reference type
+const userOne = {name:'ryu', age: 30};
+const userTwo = userOne;
+
+console.log (userOne, userTwo);
+
+userOne.age = 40;
+console.log (userOne, userTwo);
